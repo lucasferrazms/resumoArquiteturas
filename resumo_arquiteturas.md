@@ -23,3 +23,15 @@
   - Camada de Gestão e Administração
    * Inclui sistemas de monitoramento e controle, garantindo o desempenho e a segurança dos dados armazenados.
    * Gerencia aspectos como escalabilidade, alta disponibilidade e backups regulares.
+
+
+| Aspecto                  | Data Warehouse                                    | Banco de Dados Transacional (OLTP)                   |
+|--------------------------|---------------------------------------------------|-------------------------------------------------------|
+| **Objetivo**              | Consultas analíticas e relatórios estratégicos.  | Operações transacionais em tempo real.               |
+| **Estrutura de Dados**    | Denormalizada para otimizar leitura.             | Altamente normalizada para otimizar escrita.         |
+| **Performance**           | Focado em leitura e agregação de dados.          | Focado em escrita e atualização rápida.              |
+| **Volume de Dados**       | Armazena dados históricos de longo prazo.        | Dados recentes, com menos histórico.                |
+| **Usuários**              | Analistas, gestores e profissionais de BI.       | Usuários finais, sistemas de ERP e CRM.             |
+| **Processamento**         | Orientado a consultas em lote.                   | Orientado a transações individuais.                 |
+| **Atualizações**          | Dados são carregados periodicamente (ETL).       | Atualizações contínuas e em tempo real.             |
+| **Integração de Dados**   | Dados integrados de várias fontes.               | Dados isolados por sistema transacional.            |
