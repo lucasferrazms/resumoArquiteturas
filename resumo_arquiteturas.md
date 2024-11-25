@@ -25,6 +25,8 @@
    * Gerencia aspectos como escalabilidade, alta disponibilidade e backups regulares.
 
 
+- Comparação entre as arquiteturas:
+
 | Aspecto                  | Data Warehouse                                    | Banco de Dados Transacional (OLTP)                   |
 |--------------------------|---------------------------------------------------|-------------------------------------------------------|
 | **Objetivo**              | Consultas analíticas e relatórios estratégicos.  | Operações transacionais em tempo real.               |
